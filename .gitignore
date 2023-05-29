@@ -9,3 +9,6 @@ target/
 .vscode/
 src/main/resources/static/uploads/
 upload-dir/
+src/main/model/shoeclassifier-0002.params
+src/main/model/synset.txt
+src/main/model/shoeclassifier-0002.params

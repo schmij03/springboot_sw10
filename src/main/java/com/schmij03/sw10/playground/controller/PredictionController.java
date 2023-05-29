@@ -61,9 +61,9 @@ public class PredictionController {
             Image image = ImageFactory.getInstance().fromFile(filePath);
             List<Classifications.Classification> predictions = predict(image, trainedModel);
 
-            // Get the top 3 predictions
+            // Get the top prediction
             List<Classifications.Classification> top3Predictions = predictions.subList(0,
-                    Math.min(3, predictions.size()));
+                    Math.min(1, predictions.size()));
 
             // Pass the predictions to the view
             model.put("fileName", fileName);
