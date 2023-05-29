@@ -31,7 +31,8 @@ public class Models {
         dataset.prepare();
         return dataset;
     }
-
+    public static final int IMAGE_WIDTH = 224;
+    public static final int IMAGE_HEIGHT = 224;
     // Define the model name
     public static final String MODEL_NAME = "shoeclassifier";
 
